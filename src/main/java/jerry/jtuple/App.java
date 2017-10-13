@@ -20,7 +20,14 @@ public class App {
         map.put("def", 2);
         tuple = with("aaaaa", 123, "bbbbb",map);
     	System.out.println("tuple.size : " + tuple.getSize());
-        System.out.println(tuple.getValue3().getClass() + " : " + tuple.getValue4());
+        System.out.println(tuple.getValue3().getClass() + " : " + tuple.getValue3());
+        
+        Map<String,Integer> m = tuple.getValue3();
+        
+        
+        Tuple2 tuple2 = Tuple2.with("aaaaa", 123);
+    	System.out.println(tuple2.getValue1().getClass() + " : " + tuple.getValue1());
+    	System.out.println(tuple2.getValue2().getClass() + " : " + tuple.getValue2());
     }
     
 	private static Tuple with(String a,Integer b,String c) {
