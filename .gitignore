@@ -1,0 +1,14 @@
+.idea
+.classpath
+.project
+.settings
+.DS_Store
+*/.DS_Store
+target
+transaction-logs
+*.iml
+/*.xsd
+npm*
+.*#
+/document
+/logs

@@ -1,0 +1,7 @@
+*.jar -text
+*.exe -text
+*.jpg -text
+*.eot -text
+*.svg -text
+*.ttf -text
+*.woff -text
