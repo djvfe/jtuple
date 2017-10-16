@@ -33,6 +33,7 @@ public final class SimpleTuple<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9> implement
 	/**
 	 * 获得长度
 	 */
+	@Override
 	public int getSize() {
 		return size;
 	}
@@ -224,60 +225,70 @@ public final class SimpleTuple<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9> implement
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T0 getValue0() {
 		getValueCheck(1);
 		return value0;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T1 getValue1() {
 		getValueCheck(2);
 		return value1;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T2 getValue2() {
 		getValueCheck(3);
 		return value2;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T3 getValue3() {
 		getValueCheck(4);
 		return value3;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T4 getValue4() {
 		getValueCheck(5);
 		return value4;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T5 getValue5() {
 		getValueCheck(6);
 		return value5;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T6 getValue6() {
 		getValueCheck(7);
 		return value6;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T7 getValue7() {
 		getValueCheck(8);
 		return value7;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T8 getValue8() {
 		getValueCheck(9);
 		return value8;
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public T9 getValue9() {
 		getValueCheck(10);
 		return value9;
